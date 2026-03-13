@@ -19,7 +19,7 @@ Upload a room photo, pick an artistic style (Van Gogh, Hokusai, Picasso), and th
 - Custom upload — bring your own style image
 
 ## Deployment Note
-This app is **not currently deployed** since Streamlit Community Cloud has a memory limit of 1GB in the free-tier. VGG19 + TensorFlow exceeds this limit at inference time. A lightweight MobileNet version is available at: (https://github.com/kasviii/room-style-transfer-lite)
+This app is **not currently deployed** since Streamlit Community Cloud has a memory limit of 1GB in the free-tier. VGG19 + TensorFlow exceeds this limit at inference time. A lightweight version is in this -> (https://github.com/kasviii/room-style-transfer-lite)
 
 ## Stack
 - Python, TensorFlow, Streamlit
